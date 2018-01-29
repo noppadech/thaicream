@@ -1,0 +1,15 @@
+<script>
+    $(document).ready(function(){
+        $('.table-autosort').DataTable();
+    });
+</script>
+	<?php
+		foreach ($scripts['foot'] as $file)
+		{
+			$url = starts_with($file, 'http') ? $file : base_url($file);
+			echo "<script src='$url'></script>".PHP_EOL;
+		}
+	?>
+
+</body>
+</html>
