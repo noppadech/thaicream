@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '103.208.27.108',
 	'username' => 'thaicream_center',
 	'password' => 'NetThaiCream8899',
 	'database' => 'thaicream_center',
